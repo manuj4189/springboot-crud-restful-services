@@ -40,7 +40,12 @@ public class UserController {
 				.orElseThrow(()-> new ResourceNotFoundException("User not found with id:" +userId));
 	}
 	
-	//first restApi
+	@GetMapping("/greet")
+	public String greetMsg(){
+		string msg="welcome to ashok it";
+		return msg;
+	}
+	
 	@PostMapping
 	public User createUser(@RequestBody User user) {
 		
