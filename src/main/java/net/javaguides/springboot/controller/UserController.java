@@ -50,6 +50,10 @@ public class UserController {
 		string msg="welcome";
 		return msg;
 	}
+	@GetMapping("/login")
+	public String loginMsg(){
+		string msg="login my account";
+		return msg;
 	
 	@PostMapping
 	public User createUser(@RequestBody User user) {
