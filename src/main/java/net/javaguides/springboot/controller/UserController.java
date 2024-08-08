@@ -45,6 +45,11 @@ public class UserController {
 		string msg="welcome to ashok it";
 		return msg;
 	}
+	@GetMapping("/greeting")
+	public String greetingMsg(){
+		string msg="welcome";
+		return msg;
+	}
 	
 	@PostMapping
 	public User createUser(@RequestBody User user) {
