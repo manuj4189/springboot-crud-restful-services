@@ -51,6 +51,12 @@ public class UserController {
 		return msg;
 	}
 
+	@GetMapping("/greeting")
+	public String greetingMsg(){
+		string msg="welcome";
+		return msg;
+	}
+
 	@GetMapping("/login")
 	public String loginMsg(){
 		string msg="login my account";
@@ -66,6 +72,8 @@ public class UserController {
 		string msg="welcome";
 		return msg;
 	}
+
+
 	
 	@PostMapping
 	public User createUser(@RequestBody User user) {
@@ -73,6 +81,7 @@ public class UserController {
 		return this.userRepository.save(user);
 	}
 	
+
 	//update user
 	@PutMapping("/{id}")
 	public User updateUser(@RequestBody User user,@PathVariable("id") long userId)
