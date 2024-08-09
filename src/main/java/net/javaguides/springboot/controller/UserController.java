@@ -43,6 +43,7 @@ public class UserController {
 	@GetMapping("/greet")
 	public String greetMsg(){
 		string msg="welcome to ashok it";
+		String int="Ashok it"
 		return msg;
 	}
 	@GetMapping("/greeting")
