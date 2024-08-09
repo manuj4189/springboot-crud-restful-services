@@ -72,6 +72,7 @@ public class UserController {
 //task 321
 public void m2(){
 	String name="Ashok it";
+	String inst="Ahok tech";
 	//logic
 
 }
