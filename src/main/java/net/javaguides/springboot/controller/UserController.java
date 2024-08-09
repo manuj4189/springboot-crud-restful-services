@@ -77,7 +77,12 @@ public void m2(){
 
 }
 }
-	    
+	/task 325
+	public void m3(){
+		int i=20;
+	    int j=30;
+    //logic
+	}    
 
     //task 320
 	public void m1(){
