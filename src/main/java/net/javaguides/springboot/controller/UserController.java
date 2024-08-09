@@ -68,7 +68,11 @@ public class UserController {
 		string msg="welcome";
 		return msg;
 	}
-	
+//task 321
+public void m2(){
+	//logic
+}	
+
 	@PostMapping
 	public User createUser(@RequestBody User user) {
 		
