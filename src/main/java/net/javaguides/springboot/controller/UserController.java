@@ -68,13 +68,12 @@ public class UserController {
 		string msg="welcome";
 		return msg;
 	}
-<<<<<<< Updated upstream
+
 //task 321
 public void m2(){
 	//logic
 }	
 
-=======
     //task 320
 	public void m1(){
 		int i=10;
@@ -82,7 +81,7 @@ public void m2(){
     //logic
 	}
 	
->>>>>>> Stashed changes
+
 	@PostMapping
 	public User createUser(@RequestBody User user) {
 		
