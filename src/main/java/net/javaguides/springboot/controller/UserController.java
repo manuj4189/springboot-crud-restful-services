@@ -59,7 +59,9 @@ public class UserController {
     @GetMapping("/register")
 	public String registerMsg(){
 		string msg="register in my account";
+		boolean status=false
 		return msg;
+
 
 	@GetMapping("/welcome")
 	public String greetingMsg(){
