@@ -50,12 +50,13 @@ public class UserController {
 		string msg="welcome";
 		return msg;
 	}
-
-	@GetMapping("/greeting")
+@GetMapping("/register2")
 	public String greetingMsg(){
-		string msg="welcome";
+		string msg="registration";
 		return msg;
 	}
+
+	
 
 	@GetMapping("/login")
 	public String loginMsg(){
